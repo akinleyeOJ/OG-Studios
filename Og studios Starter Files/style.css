@@ -57,6 +57,13 @@
   transform: translateX(-50%);
   display: flex;
 }
+.wrapper .sidebar .social_media h1{
+  position: absolute;
+  margin-top: 60px;
+   font-size: 15px;
+   left: 5%;
+   text-align: center;
+}
 
 .wrapper .sidebar .social_media li.twitter a{
   display: block;
@@ -116,7 +123,7 @@
   margin-bottom: 200px;
 }
  .sidebar .copyright h1{
-  border-bottom: 999950px;
+  border-bottom: 50px;
   font-size: 12px;
   text-align: center;
 }

@@ -131,4 +131,20 @@
   text-align: center;
 }
 
-/**********Image Gallery**/
+/**********Image Gallery***********/
+.main_content .info .gallery {
+  margin: 10px 50px;
+} 
+
+.main_content .info .gallery img{
+  width: 560px;
+  height: 350px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.main_content .info .gallery img:hover{
+  transform: scale(1.1);
+  filter: grayscale(40%);
+}
+

@@ -47,6 +47,7 @@
 .wrapper .sidebar ul li:hover{
   background: #7d7a8a;
   cursor: pointer;
+  transition: all 0.55s ease-in-out ;
 }
 .wrapper .sidebar ul li:hover a{
   color: #fff;

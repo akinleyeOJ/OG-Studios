@@ -211,7 +211,7 @@ hr.style1{
  }
  .sidebar_inner .sidebar_menu{
    height: 490px;
-   overflow: auto;
+
  }
 
 .sidebar_inner .sidebar_menu > li > a{
@@ -250,4 +250,17 @@ hr.style1{
   display: flex;
   align-items: center;
   padding: 0 20px;
+}
+
+.navbar .hamburger{
+  font-size: 25px;
+  cursor: pointer;
+  color: #5558c9;
+  margin-right: 20px;
+}
+
+.navbar .logo a{
+  color: #5558c9;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }

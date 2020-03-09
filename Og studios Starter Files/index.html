@@ -11,11 +11,15 @@
 	<link href="css/lightbox.css" rel="stylesheet">
 	<link href="css/lightbox.min.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/d247197c51.js" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="js/lightbox-plus-jquery.min.js"></script>
 	<title>OG Studios - Nigeria</title>
 	<script>
 		$(document).ready(function(){
-
+		  $(".sidebar_menu li").click(function(){
+            $(".sidebar_menu li").removeClass("active");
+			$(this).addClass("active");
+		})
 		});
 	</script>
 </head>

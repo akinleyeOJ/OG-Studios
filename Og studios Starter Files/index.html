@@ -20,6 +20,12 @@
             $(".sidebar_menu li").removeClass("active");
 			$(this).addClass("active");
 		})
+		  $(".hamburger").click(function(){
+			  $(".wrapper").addClass("active")
+		  })
+		  $(".close, .bg_shadow").click(function(){
+			  $(".wrapper").removeClass("active")
+		  })
 		});
 	</script>
 </head>
@@ -29,8 +35,6 @@
 
 <div class="wrapper">
 	<div class="sidebar">
-		<!-- <h2>Og Studios</h2>
-		<hr> -->
 		<div class="bg_shadow"></div>
 		   <div class="sidebar_inner">
 			     <div class="close">
@@ -39,6 +43,8 @@
 		
 		
 		         <ul class="sidebar_menu">
+					<h2>Og Studios</h2>
+					<hr>
 			        <li class="active">
 						<a href="#">
 							<div class="icon"></div>
@@ -63,7 +69,16 @@
 							<div class="title">Portriat</div>
 						</i></a>
 					</li>
-			     </ul>
+				 </ul>
+				 <div class="social_media">
+			<li class="twitter">
+				<a href="#"><i class="fab fa-twitter"></i></a>
+			</li>
+			<li class="instagram">
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			</li>
+			   <h1>&copy; OG Studios </h1>
+		</div>
 		   </div>
 	</div>
 	
@@ -84,15 +99,7 @@
 			
 		</div>
 	</div>
-		<!-- <div class="social_media">
-			<li class="twitter">
-				<a href="#"><i class="fab fa-twitter"></i></a>
-			</li>
-			<li class="instagram">
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			</li>
-			   <h1>&copy; OG Studios </h1>
-		</div> -->
+		
 		
 	</div>
 

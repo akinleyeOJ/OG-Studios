@@ -417,7 +417,7 @@ hr {
      }
      .navbar .logo {
       margin-top: -10px;
-      margin-left: -120px;
+      margin-left: -180px;
     }
     .sidebar_inner .sidebar_menu > li > a{
       padding: 15px 40px;
@@ -434,6 +434,15 @@ hr {
     display: block;
     margin-left: 80px;
     width: 30%;
+}
+.navbar .hamburger{
+  font-size: 25px;
+  cursor: pointer;
+  color: yellow;
+  margin-right: 80px;
+  margin-left: 150px;
+  margin-top: 70px;
+  
 }
   
 }

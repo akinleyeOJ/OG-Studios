@@ -237,8 +237,10 @@ hr.style1{
   color: #fff;
   font-size: 25px;
   cursor: pointer;
+  display: none;
 }
-.sidebar_inner .close:hover{
+.sidebar_inner .close:hover,
+.navbar .hamburger:hover{
   opacity: 0.7;
 }
 
@@ -257,6 +259,7 @@ hr.style1{
   cursor: pointer;
   color: #5558c9;
   margin-right: 20px;
+  display: none;
 }
 
 .navbar .logo a{
@@ -264,3 +267,33 @@ hr.style1{
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*****Media Queries*********/
+
+@media (max-width: 1024px) {
+  .sidebar_inner{
+    left: -115%;
+    transition: all 0.3s ease;
+  }
+  .main_container{
+    width: 100%;
+    margin-left: 0;
+  }
+  .sidebar_inner .close,
+  .navbar .hamburger{
+       display: block;
+  }
+  .content .item{
+    width: 47%;
+  }
+}
+
+@media (max-width: 528px){
+     /**place main content items for phone screen***/
+     .content .item{
+       width: 100%;
+     }
+
+}
+  
+

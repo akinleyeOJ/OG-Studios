@@ -407,6 +407,27 @@ hr {
     margin-left: -120px ;
     font-family: 'Parisienne',sans-serif !important;
   }
+
+  /**********Image Gallery***********/
+.main_container .content .info .gallery {
+  margin: 10px 50px;
+} 
+
+.content .info .gallery img{
+  width: 600px;
+  height: 350px;
+  padding: 10px;
+  padding-right: 20px;
+  transition: 0.5s;
+  border-radius: 1.3pc !important;
+  border-radius: 20px;
+}
+
+.content .info .gallery img:hover{
+  transform: scale(1.07);
+  filter: grayscale(40%);
+}
+
  
 }
 

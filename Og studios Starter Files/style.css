@@ -412,7 +412,7 @@ p {
     box-shadow: 0 3px 5px rgba(0,0,0,0.125);
     display: flex;
     align-items: center;
-    padding: 0 20px;
+    padding: 70px 10px;
   }
   .wrapper .sidebar .social_media{
     position: absolute;
@@ -431,13 +431,14 @@ p {
     margin-left: -120px ;
     font-family: 'Parisienne',sans-serif !important;
   }
+  
   .navbar .hamburger{
-    font-size: 25px;
+    font-size: 21px;
     cursor: pointer;
-    color: pink!important;
-    margin-right: -90px !important;
-    margin-left: 470px !important;
-    margin-top: 70px; 
+    color: rgb(110, 104, 104)!important;
+    margin-right: -120px !important;
+    margin-left: 440px !important;
+    margin-top: 80px; 
     }
     .sidebar_inner .close{
       position: absolute !important;
@@ -449,6 +450,8 @@ p {
       cursor: pointer;
      
     }
+    
+ 
     .main_container .content .info .gallery {
       margin: 50px 25px;
       margin-left: 65px !important;

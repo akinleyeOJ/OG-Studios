@@ -367,54 +367,6 @@ hr {
   }
 
 /*****Media Queries*********/
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
- /**place main content items for phone screen***/
-     
- .navbar .logo {
-  margin-top: -10px;
-  margin-left: -250px !important;
-}
-.sidebar_inner .sidebar_menu > li > a{
-  padding: 15px 40px;
-  padding-left: 150px;
-  color: #c4dcff;
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-bottom: 1px;
-  top: 50px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.sidebar_inner .close{
-display: block;
-margin-left: 80px;
-width: 30%;
-}
-.navbar{
-background: #fff;
-height: 100px;
-width: 190%;
-box-shadow: 0 3px 5px rgba(0,0,0,0.125);
-display: flex;
-align-items: center;
-padding: 0 20px;
-}
-.navbar .hamburger{
-font-size: 25px;
-cursor: pointer;
-color: yellow;
-margin-right: 150px;
-margin-left: 170px;
-margin-top: 70px;
-
-
-}
-}
-
-
-
-
 @media (max-width: 1024px) {
   .sidebar_inner{
     left: -315%;
@@ -474,9 +426,113 @@ margin-top: 70px;
     margin-left: -120px ;
     font-family: 'Parisienne',sans-serif !important;
   }
+  .navbar .hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    color: pink!important;
+    margin-right: -90px !important;
+    margin-left: 470px !important;
+    margin-top: 70px; 
+    }
+    .sidebar_inner .close{
+      position: absolute !important;
+      top: 5px;
+      right: 15px;
+      color: red;
+      left: 380px !important;
+      font-size: 25px;
+      cursor: pointer;
+     
+    }
+}
 
+@media (max-width: 768px) {
+  .navbar .hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    color: pink!important;
+    margin-right: -95px !important;
+    margin-left: 350px !important;
+    margin-top: 70px; 
+    }
+    .sidebar_inner .close{
+      position: absolute !important;
+      top: 5px;
+      right: 65px;
+      color: red;
+      left: 380px !important;
+      font-size: 25px;
+      cursor: pointer;
+     
+    }
+}
 
  
+
+ @media only screen and (max-width: 414px) {
+  .navbar .hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    color: purple !important;
+    margin-right: -95px !important;
+    margin-left: 180px !important;
+    margin-top: 70px; 
+    }
+    .sidebar_inner .close{
+      position: absolute !important;
+      top: 5px;
+      right: 15px;
+      color: red;
+      left: 200px !important;
+      font-size: 25px;
+      cursor: pointer;
+     
+    }
+
+}
+ 
+@media only screen and (max-width: 375px) {
+  .navbar .hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    color: green !important;
+    margin-right: 160px !important;
+    margin-left: 130px !important;
+    margin-top: 70px; 
+    }
+    .sidebar_inner .close{
+      position: absolute !important;
+      top: 5px;
+      right: 15px;
+      color: red;
+      left: 200px !important;
+      font-size: 25px;
+      cursor: pointer;
+     
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar .hamburger{
+    font-size: 25px;
+    cursor: pointer;
+    color: yellow !important;
+    margin-right: 160px !important;
+    margin-left: 130px !important;
+    margin-top: 70px; 
+    }
+    .sidebar_inner .close{
+      position: absolute !important;
+      top: 5px;
+      right: 15px;
+      color: red;
+      left: 200px !important;
+      font-size: 25px;
+      cursor: pointer;
+      
+    }
+
 }
 
 

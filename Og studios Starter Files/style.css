@@ -291,7 +291,7 @@ p {
 .navbar .logo a{
   color: black;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: lighter;
   font-family: 'Parisienne',sans-serif !important;
 
 }
@@ -379,7 +379,7 @@ p {
     width: 500px;
   }
   .navbar .logo {
-    margin-top: -10px;
+    margin-top: -70px;
     margin-left: 10px;
    
   }
@@ -407,12 +407,12 @@ p {
   }
   .navbar{
     background: #fff;
-    height: 100px;
+    height: 0px;
     width: 120%;
     box-shadow: 0 3px 5px rgba(0,0,0,0.125);
     display: flex;
     align-items: center;
-    padding: 70px 10px;
+    padding: 60px 10px;
   }
   .wrapper .sidebar .social_media{
     position: absolute;
@@ -436,8 +436,8 @@ p {
     font-size: 21px;
     cursor: pointer;
     color: rgb(110, 104, 104)!important;
-    margin-right: -120px !important;
-    margin-left: 440px !important;
+    margin-right: -110px !important;
+    margin-left: 475px !important;
     margin-top: 80px; 
     }
     .sidebar_inner .close{
@@ -534,12 +534,12 @@ p {
  
 @media only screen and (max-width: 375px) {
   .navbar .hamburger{
-    font-size: 25px;
+    font-size: 15px;
     cursor: pointer;
-    color: green !important;
-    margin-right: -93px !important;
-    margin-left: 168px !important;
-    margin-top: 70px; 
+    color: black!important;
+    margin-right: -99px !important;
+    margin-left: 158px !important;
+    margin-top: 30px; 
     }
     .sidebar_inner .close{
       position: absolute !important;

@@ -464,14 +464,21 @@ p {
       border-radius: 5px !important;
       padding-bottom: 20px;
     }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 40px !important;
+       height: 40px !important; 
+       bottom: 6px !important; 
+       right: 220px !important;
+     
+    }
 }
 
 @media (max-width: 768px) {
   .navbar .hamburger{
     font-size: 25px;
     cursor: pointer;
-    color: pink!important;
-    margin-right: -95px !important;
+    color: black!important;
+    margin-right: -122px !important;
     margin-left: 350px !important;
     margin-top: 70px; 
     }
@@ -496,18 +503,25 @@ p {
       padding-bottom: 20px;
     
     }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 40px !important;
+       height: 40px !important; 
+       bottom: 6px !important; 
+       right: 170px !important;
+     
+    }
 }
 
  
 
  @media only screen and (max-width: 414px) {
   .navbar .hamburger{
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
-    color: purple !important;
-    margin-right: -95px !important;
-    margin-left: 180px !important;
-    margin-top: 70px; 
+    color: black !important;
+    margin-right: -115px !important;
+    margin-left: 170px !important;
+    margin-top: 50px; 
     }
     .sidebar_inner .close{
       position: absolute !important;
@@ -528,6 +542,13 @@ p {
       transition: 0.5s;
       border-radius: 5px !important;
       padding-bottom: 20px;
+    }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 32px !important;
+       height: 32px !important; 
+       bottom: 6px !important; 
+       right: 89px !important;
+     
     }
 
 }
@@ -561,17 +582,31 @@ p {
       border-radius: 5px !important;
       padding-bottom: 20px;
     }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 32px !important;
+       height: 32px !important; 
+       bottom: 6px !important; 
+       right: 80px !important;
+     
+    }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 32px !important;
+       height: 32px !important; 
+       bottom: 6px !important; 
+       right: 80px !important;
+     
+    }
 
 }
 
 @media only screen and (max-width: 360px) {
   .navbar .hamburger{
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
-    color: green !important;
-    margin-right: -100px !important;
-    margin-left: 155px !important;
-    margin-top: 70px; 
+    color: black !important;
+    margin-right: -108px !important;
+    margin-left: 135px !important;
+    margin-top: 50px; 
     }
     .sidebar_inner .close{
       position: absolute !important;
@@ -593,17 +628,24 @@ p {
       border-radius: 5px !important;
       padding-bottom: 20px;
     }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 32px !important;
+       height: 32px !important; 
+       bottom: 6px !important; 
+       right: 80px !important;
+     
+    }
 
 }
 
 @media only screen and (max-width: 320px) {
   .navbar .hamburger{
-    font-size: 25px;
+    font-size: 16px;
     cursor: pointer;
-    color: yellow !important;
-    margin-right: -100px !important;
+    color: black !important;
+    margin-right: -110px !important;
     margin-left: 130px !important;
-    margin-top: 70px; 
+    margin-top: 50px; 
     }
     .sidebar_inner .close{
       position: absolute !important;
@@ -627,9 +669,102 @@ p {
       border-radius: 5px !important;
       padding-bottom: 20px;
     }
+    #back-to-top-btn { font-size: 18px !important; 
+      width: 32px !important;
+       height: 32px !important; 
+       bottom: 6px !important; 
+       right: 80px !important;
+     
+    }
 
 }
 
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  color: rgb(61, 61, 117);
+  cursor: pointer;
+  outline: none;
+  border: 3px solid rgb(55, 55, 94);
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: rgb(61, 61, 117);
+  color: #fff;
+
+}
+
+@media(max-width: 992px) {
+  #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+}
+@media(max-width:768px) {
+  
+}
+
+/* Animations */
+.btnEntrance {
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: btnEntrance;
+}
+/* zoomIn */
+/* @keyframes btnEntrance { 
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }    
+} */
+
+/* fadeInUp */
+@keyframes btnEntrance {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.btnExit {
+  animation-duration: 0.25s;
+  animation-fill-mode: both;  
+  animation-name: btnExit;
+}
+/* zoomOut */
+/* @keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+} */
+
+/* fadeOutDown */
+@keyframes btnExit {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+}
 
   
 

@@ -355,21 +355,24 @@ p {
     margin: 50px 0px;
     border-top: -500px !important;
   } 
-  
+
   .main_container .content .info .gallery img{
     width:400px;
     border-top: 500px !important;
-    /* height: 550px; */
     padding-right: 30px;
+    max-width:100% !important;
+    height: auto !important;
     transition: 0.5s;
     border-radius: 5px !important;
     padding-bottom: 20px;
+    display: inline-table !important;
   }
   
   .main_container .content .info .gallery img:hover{
     transform: scale(1.07);
     filter: grayscale(40%);
   }
+  
 
 /*****Media Queries*********/
 @media (max-width: 1024px) {
@@ -582,6 +585,7 @@ p {
       border-radius: 5px !important;
       padding-bottom: 20px;
     }
+  
     #back-to-top-btn { font-size: 18px !important; 
       width: 32px !important;
        height: 32px !important; 

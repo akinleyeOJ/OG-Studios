@@ -236,54 +236,10 @@ p {
 
 
 /*****Media Queries*********/
-@media (max-width: 1735px) {
+
+@media (max-width: 1900px) {
   .fit-image > div > a > img {
-    width:310px !important;
-    border-top: 500px !important;
-  } 
-  .section-padding{
-    padding: 4rem .1rem;
-  }
-}
-@media (max-width: 1600px) {
-  .fit-image > div > a > img {
-    width:318px !important;
-    border-top: 500px !important;
-  } 
-  .section-padding{
-    padding: 4rem .1rem;
-  }
-}
-@media (max-width: 1520px) {
-  .fit-image > div > a > img {
-    width:258px !important;
-    border-top: 500px !important;
-  } 
-  .section-padding{
-    padding: 4rem .1rem;
-  }
-}
-@media (max-width: 1394px) {
-  .fit-image > div > a > img {
-    width:218px !important;
-    border-top: 500px !important;
-  } 
-  .section-padding{
-    padding: 4rem .1rem;
-  }
-}
-@media (max-width: 1194px) {
-  .fit-image > div > a > img {
-    width:175px !important;
-    border-top: 500px !important;
-  } 
-  .section-padding{
-    padding: 4rem .1rem;
-  }
-}
-@media (max-width: 1094px) {
-  .fit-image > div > a > img {
-    width:168px !important;
+    width: 98% !important;
     border-top: 500px !important;
   } 
   .section-padding{
@@ -379,7 +335,7 @@ p {
       padding: 4rem 1.5rem;
     }
     .fit-image > div > a > img {
-      width:320px;
+      width: 320px !important;
       border-top: 0px !important;
     }
     .row{
@@ -436,7 +392,7 @@ p {
       padding: 4rem 1.5rem;
     }
     .fit-image > div > a > img {
-      width:235px;
+      width:235px !important;
       border-top: 0px !important;
     }
     .row{
@@ -468,7 +424,7 @@ p {
       padding: 4rem 1.5rem;
     }
     .fit-image > div > a > img {
-      width:370px;
+      width:370px !important;
       border-top: 0px !important;
     }
     .row{
@@ -506,7 +462,7 @@ p {
       padding: 4rem 1.5rem;
     }
     .fit-image > div > a > img {
-      width:330px;
+      width:330px !important;
       border-top: 0px !important;
     }
     .row{
@@ -556,7 +512,7 @@ p {
       padding: 4rem 1.5rem;
     }
     .fit-image > div > a > img {
-      width:312px;
+      width:312px !important;
       border-top: 0px !important;
     }
     .row{
@@ -598,7 +554,7 @@ p {
       padding: 4rem 2rem;
     }
     .fit-image > div > a > img {
-      width:295px;
+      width:295px !important;
       border-top: 0px !important;
     }
     .row{

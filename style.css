@@ -236,12 +236,59 @@ p {
 
 
 /*****Media Queries*********/
-
-@media (min-width: 1660px) {
+@media (max-width: 1735px) {
   .fit-image > div > a > img {
-    width:418px !important;
+    width:310px !important;
     border-top: 500px !important;
   } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
+}
+@media (max-width: 1600px) {
+  .fit-image > div > a > img {
+    width:318px !important;
+    border-top: 500px !important;
+  } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
+}
+@media (max-width: 1520px) {
+  .fit-image > div > a > img {
+    width:258px !important;
+    border-top: 500px !important;
+  } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
+}
+@media (max-width: 1394px) {
+  .fit-image > div > a > img {
+    width:218px !important;
+    border-top: 500px !important;
+  } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
+}
+@media (max-width: 1194px) {
+  .fit-image > div > a > img {
+    width:175px !important;
+    border-top: 500px !important;
+  } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
+}
+@media (max-width: 1094px) {
+  .fit-image > div > a > img {
+    width:168px !important;
+    border-top: 500px !important;
+  } 
+  .section-padding{
+    padding: 4rem .1rem;
+  }
 }
 @media (max-width: 1024px) {
   .sidebar_inner{
@@ -702,12 +749,5 @@ p {
     transform: translate3d(0, 100%, 0);
   }
 }
-
-@media (min-width: 1172px) {
-  .main_container{
-   min-width: 70% !important;
-  }
-}
-
 
 

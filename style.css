@@ -237,7 +237,12 @@ p {
 
 /*****Media Queries*********/
 
-
+@media (min-width: 1660px) {
+  .fit-image > div > a > img {
+    width:418px !important;
+    border-top: 500px !important;
+  } 
+}
 @media (max-width: 1024px) {
   .sidebar_inner{
     left: -315%;
